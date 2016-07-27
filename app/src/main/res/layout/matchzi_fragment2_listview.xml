@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/matchzi_zi_fragment1_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/matchzi_fragment2_listview_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="高定周报道 | Valentino：天鹅的挽歌"
+            android:textColor="#161515"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/matchzi_fragment2_listview_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/matchzi_fragment2_listview_tv1"
+            android:layout_marginTop="10dp"
+            android:text="2016-11-28" />
+
+        <TextView
+            android:id="@+id/matchzi_fragment2_listview_tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:text="#潮流#" />
+
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/matchzi_fragment2_listview_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/bb10" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/matchzi_fragment2_listview_tv4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40dp"
+            android:layout_weight="1"
+            android:drawableLeft="@mipmap/icon_bbs_detail_comment_title"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/matchzi_fragment2_listview_tv5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableLeft="@mipmap/icon_bbs_detail_liuliang"
+            android:text="715" />
+
+        <TextView
+            android:id="@+id/matchzi_fragment2_listview_tv6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableLeft="@mipmap/bottom_like_button"
+            android:text="98" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

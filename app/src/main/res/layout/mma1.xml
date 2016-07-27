@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+    <!-- mma布局里面线性布局的子View的布局-->
+
+    <ImageView
+        android:id="@+id/mma1_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/bb6" />
+
+
+    <TextView
+        android:id="@+id/mma1_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mma1_image"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="百搭球球手环"
+        android:textColor="#0e0e0e" />
+
+
+    <TextView
+        android:id="@+id/mma1_tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mma1_tv1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="￥48"
+        android:textColor="#FF4081"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mma1_tv2">
+
+        <TextView
+            android:id="@+id/mma1_tv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="￥148" />
+
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="2dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:background="#cfcccc"
+            android:gravity="center" />
+
+
+    </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

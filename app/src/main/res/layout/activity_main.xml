@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.starapp.MainActivity">
+
+
+    <RadioGroup
+        android:id="@+id/main_group"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <RadioButton
+            android:id="@+id/main_but1"
+            style="@style/main_but"
+            android:checked="true"
+            android:drawableTop="@drawable/main_home"
+            android:text="首页"
+            android:textColor="@color/main_text_yes" />
+
+        <RadioButton
+            android:id="@+id/main_but2"
+            style="@style/main_but"
+            android:drawableTop="@drawable/main_match"
+            android:text="搭配"
+            android:textColor="@color/main_text_no" />
+
+        <RadioButton
+            android:id="@+id/main_but3"
+            style="@style/main_but"
+            android:drawableTop="@drawable/main_item"
+            android:text="社区"
+            android:textColor="@color/main_text_no" />
+
+        <RadioButton
+            android:id="@+id/main_but4"
+            style="@style/main_but"
+            android:drawableTop="@drawable/main_cart"
+            android:text="购物车"
+            android:textColor="@color/main_text_no" />
+
+        <RadioButton
+            android:id="@+id/main_but5"
+            style="@style/main_but"
+            android:drawableTop="@drawable/main_like"
+            android:text="我的"
+            android:textColor="@color/main_text_no" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/main_tv"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_above="@id/main_group"
+        android:background="#5c9e9696" />
+
+
+    <FrameLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/main_group" />
+
+
+</RelativeLayout>

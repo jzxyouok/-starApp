@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#a49797"
+        />
+    <!-- 首页,国家馆里面的布局1号-->
+    <ImageView
+        android:id="@+id/mma_image"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@mipmap/aa2"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FF4081"
+        />
+    <!--注意，水平滚动视图是FrameLayout，只能有一个直接的子控件-->
+    <HorizontalScrollView
+        android:scrollbars="none"
+
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <LinearLayout
+            android:id="@+id/mma_layout1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+    </HorizontalScrollView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FF4081"
+        />
+
+    <com.android.starapp.view.ViewTop
+        android:id="@+id/mma_viewtop"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+    </com.android.starapp.view.ViewTop>
+
+
+
+
+    <!--注意，水平滚动视图是FrameLayout，只能有一个直接的子控件-->
+    <HorizontalScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+
+        <LinearLayout
+            android:id="@+id/mma_layout2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+
+
+
+
+
+</LinearLayout>

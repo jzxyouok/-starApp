@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <!--小搭配里面的子碎片的ListView-->
+<ListView
+    android:id="@+id/match_zi_zi_fragment1_listview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+</ListView>
+
+
+
+
+
+</LinearLayout>

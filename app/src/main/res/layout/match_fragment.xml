@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 搭配碎片布局 -->
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/match_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <RadioButton
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"/>
+
+            <RadioButton
+                android:id="@+id/match_toolbar_b1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@color/main_text_yes"
+                android:drawableBottom="@drawable/match_toolbar_main"
+                android:checked="true"
+                android:button="@null"
+                android:gravity="center"
+                android:text="搭配" />
+
+            <RadioButton
+                android:id="@+id/match_toolbar_b2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@color/main_text_no"
+                android:drawableBottom="@drawable/match_toolbar_main"
+                android:button="@null"
+                android:gravity="center"
+                android:text="专题" />
+
+
+            <ImageView
+                android:id="@+id/match_toolbar_image"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@mipmap/button_head_massage"
+                />
+
+
+        </RadioGroup>
+
+    </android.support.v7.widget.Toolbar>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#90938282"/>
+
+
+
+
+    <FrameLayout
+        android:id="@+id/match_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       />
+
+
+</LinearLayout>

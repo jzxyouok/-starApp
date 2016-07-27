@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/matchzi_fragment1_layout"
+    >
+
+    <!-- 搭配里面的子碎片(小搭配碎片) 布局-->
+
+
+
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/matchzi1_tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:tabMode="scrollable"
+        app:tabIndicatorColor="#fff"
+        app:tabTextColor="#312b2b"
+        app:tabSelectedTextColor="#FF4081"
+        >
+    </android.support.design.widget.TabLayout>
+
+
+
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/matchzi1_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>

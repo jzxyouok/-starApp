@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/cart_layout"
+    android:orientation="vertical">
+
+
+    <!-- 购物车碎片-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="我的购物车"
+            android:textColor="#111"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/cart_msg"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:background="@mipmap/button_head_massage"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/cart_edit"
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@+id/cart_msg"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@+id/cart_msg"
+            android:layout_toStartOf="@+id/cart_msg"
+            android:gravity="center"
+            android:text="编辑"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#d4d4d4" />
+
+<!--
+   <ListView
+       android:id="@+id/cart_list"
+       android:layout_width="match_parent"
+       android:layout_height="fill_parent">
+   </ListView>
+-->
+
+
+</LinearLayout>

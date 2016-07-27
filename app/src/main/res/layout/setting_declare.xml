@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--反馈 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:weightSum="1">
+
+
+        <TextView
+            android:id="@+id/declare_btn"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:background="@mipmap/back_button_black" />
+
+        <TextView
+            android:layout_width="294dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="声\t\t明" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="0dp" />
+
+
+    </LinearLayout>
+
+
+
+  <WebView
+      android:id="@+id/declare_web"
+      android:layout_width="match_parent"
+      android:layout_height="fill_parent"></WebView>
+</LinearLayout>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/matchzi_zi_fragment1_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2"
+    android:orientation="horizontal"
+    >
+
+    <!--小搭配里面的子碎片ListView的布局-->
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/matchzi_zi_imagea"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginRight="5dp"
+            android:scaleType="fitXY"
+             />
+
+        <TextView
+            android:id="@+id/matchzi_zi_text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:lines="1"
+            android:ellipsize="end"
+             />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:background="#6e6b6b" />
+
+
+        <RelativeLayout
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/match_zi_zi_fragment1_i1"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/icon_bbs_detail_link"/>
+
+            <TextView
+                android:id="@+id/matchzi_zi_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/match_zi_zi_fragment1_i1"
+
+                />
+
+
+
+
+            <TextView
+                android:layout_centerInParent="true"
+                android:layout_width="2dp"
+                android:layout_height="50dp"
+                android:background="#6e6b6b"
+                />
+
+
+
+            <TextView
+                android:id="@+id/matchzi_zi_text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                />
+
+
+            <ImageView
+                android:id="@+id/match_zi_zi_fragment1_i2"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/matchzi_zi_text3"
+                android:src="@mipmap/icon_bbs_detail_comment_like"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/matchzi_zi_imageb"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="5dp"
+            android:scaleType="fitXY"
+             />
+
+        <TextView
+            android:id="@+id/matchzi_zi_text11"
+            android:lines="1"
+            android:ellipsize="end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:background="#6e6b6b" />
+
+
+        <RelativeLayout
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/match_zi_zi_fragment1_i11"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/icon_bbs_detail_link"/>
+
+            <TextView
+                android:id="@+id/matchzi_zi_text22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/match_zi_zi_fragment1_i11"
+                />
+
+
+
+
+            <TextView
+                android:layout_centerInParent="true"
+                android:layout_width="2dp"
+                android:layout_height="50dp"
+                android:background="#6e6b6b"
+                />
+
+
+
+            <TextView
+                android:id="@+id/matchzi_zi_text33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                />
+
+
+            <ImageView
+                android:id="@+id/match_zi_zi_fragment1_i22"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/matchzi_zi_text33"
+                android:src="@mipmap/icon_bbs_detail_comment_like"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
